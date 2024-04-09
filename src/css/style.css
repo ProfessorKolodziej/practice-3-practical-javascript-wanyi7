@@ -5,11 +5,12 @@ Try changing the color from blue to red in the
 primary color variable below.
 */
 
-:root {
-	--color-primary: blue;
-	--color-secondary: #c00;
+.show{
+	color: blue;
 }
-
+.hide{
+	display: none;
+}
 /*
 CSS doesn't allow variables to be used in media
 queries just yet, but you can use these values
